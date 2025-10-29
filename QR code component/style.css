@@ -39,3 +39,12 @@ body {
     margin-bottom: 25px;
 }
 
+.attribution {
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 13px;
+    color: hsl(0, 0%, 30%);
+}
