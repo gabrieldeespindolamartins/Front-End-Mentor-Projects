@@ -15,6 +15,10 @@ body{
     
 }
 
+.avatar{
+    border-radius: 100px;
+}
+
 .container {
     background-color: hsl(0, 0%, 12%);
     
@@ -22,6 +26,9 @@ body{
     flex-direction: column;
     padding: 0;
     text-align: center;
+
+    padding: 25px;
+    border-radius: 15px;
 }
 
 .name {
@@ -30,6 +37,7 @@ body{
 
 .location {
     color: hsl(75, 94%, 57%);
+    font-size: 16px;
 }
 
 .paragraph {
@@ -37,6 +45,7 @@ body{
 }
 
 .button-list {
+    width: 360px;
     padding: 0;
     margin: auto;
     list-style-type: none;
@@ -54,4 +63,10 @@ body{
     border-radius: 10px;
 }
 
+.attribution {
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 
