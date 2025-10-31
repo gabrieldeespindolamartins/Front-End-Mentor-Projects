@@ -4,6 +4,7 @@ body{
     background-color: hsl(0, 0%, 8%);
     color: hsl(0, 0%, 100%);
     font-family: "Inter", sans-serif;
+    font-weight: 400;
 
     display: flex;
     flex-direction: column;
@@ -15,10 +16,6 @@ body{
     
 }
 
-.avatar{
-    border-radius: 100px;
-}
-
 .container {
     background-color: hsl(0, 0%, 12%);
     
@@ -26,13 +23,23 @@ body{
     flex-direction: column;
     padding: 0;
     text-align: center;
+    align-items: center;
 
     padding: 25px;
     border-radius: 15px;
 }
 
+
+.avatar{
+    border-radius: 100px;
+    margin: 20px;
+}
+
+
 .name {
     margin: 0;
+    font-size: 28px ;
+    font-weight: 400;
 }
 
 .location {
@@ -52,17 +59,23 @@ body{
 }
 
 .button-list a {
+    display: block;
     text-decoration: none;
     color: inherit;
-}
-
-.button-list li {
-    background-color:hsl(0, 0%, 20%);
     margin: 15px;
     padding: 15px;
+    background-color:hsl(0, 0%, 20%);
     border-radius: 10px;
+    font-weight: 700;
+    transition: background 0.25s ease, color 0.25s ease; /*define quais elementos vao ter transição, o tempo e o estilo de transição*/
 }
 
+.button-list a:hover {
+    /*define a cor de fundo e texto da transição*/
+    color:hsl(0, 0%, 20%);
+    background-color: hsl(75, 94%, 57%);
+
+}
 .attribution {
     position: fixed;
     bottom: 15px;
