@@ -69,7 +69,6 @@ body {
    bottom: 15px; /*define a distancia entre o final da tela (precisa ter se nao o objeto nao fixa no final da tela)*/
    left: 50%; /*move o inicio da div para o meio da tela*/
    transform: translateX(-50%); /*move o inicio da div para o meio da tela*/
-   text-align: center;
    font-size: 13px;
    color: hsl(0, 0%, 30%);
 }

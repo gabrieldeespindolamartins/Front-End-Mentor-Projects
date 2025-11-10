@@ -5,6 +5,10 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 100vh;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
 
     background-color: hsl(217, 54%, 11%);
     font-family: Outfit, sans-serif;
@@ -36,7 +40,7 @@ body {
 
 p {
     color: hsl(215, 51%, 70%);
-    font-weight: 300;
+    font-weight: 200;
     font-size: 1.125rem;
     max-width: 290px;
     margin: 0   ;
@@ -70,7 +74,45 @@ p {
 
 #clock {
     color:  hsl(215, 51%, 70%);
-    font-weight: 400;
+    font-weight: 300;
     font-size: 1rem;
     margin-left: 5px;
+}
+
+.linha {
+    height: 0.5px;
+    width: 100%;
+    background-color: hsl(215, 30%, 34%);
+    border: none;
+}
+
+.autor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+
+#credits {
+    margin-left: 15px;
+    font-size: 17px;
+}
+
+#credits span {
+    font-weight: 300;
+    color: hsl(0, 0%, 100%);
+}
+
+#avatar {
+    border-radius: 100%;
+    border: 2px solid hsl(0, 0%, 100%);
+}
+
+.attribution {
+    position: fixed;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 13px;
+    color: hsl(0, 0%, 30%);
 }
