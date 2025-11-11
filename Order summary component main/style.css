@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: inherit;
+   
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: inter, sans-serif;
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+  
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 450px;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    border-radius: 20px;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+#paragraph {
+    font-size: 16px;
+    max-width: 320px;
+    text-align: center;
+    margin: 20px;
+}
+
+.planSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 350px;
+    gap: 15px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 15px;
+    padding: 20px;
+   
+}
+
+.planDesc {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+h4 {
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+a {
+    margin-left: auto;  
+    font-weight: 700;
+}
+
+button {
+    cursor: pointer;
+}
+#payment {
+    border: none;
+    width: 350px;
+    border-radius: 15px;
+    font-weight: 700;
+    color: hsl(225, 100%, 98%);
+    background-color:  hsl(245, 75%, 52%);
+    padding: 15px;
+    box-shadow: 0 15px 10px hsl(245, 75%, 52%, 0.2);
+    margin: 30px;
+}
+
+#cancel {
+    color: hsl(224, 23%, 55%);
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    background-color: transparent;
+    margin-bottom: 40px;
+}
