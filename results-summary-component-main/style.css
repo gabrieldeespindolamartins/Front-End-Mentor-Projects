@@ -5,6 +5,7 @@
   padding: 0;
   box-sizing: border-box;
   font: inherit;
+  font-weight: 500;
 }
 
 body {
@@ -33,12 +34,49 @@ body {
   justify-content: center;
   flex-direction: column;
   height: 100%;
-  width: 400px;
+  width: 260px;
   background: linear-gradient(to top, hsl(241, 81%, 54%), hsl(252, 100%, 67%));
   border-radius: 20px;
+  color: hsl(0, 0%, 100%);
+}
+
+.results p {
+  max-width: 200px;
+}
+
+.skills {
+  display: flex;
+  align-items: center;
+
+  height: 45px;
+  margin: 5px 0;
+  color: hsl(224, 30%, 27%);
+  border-radius: 10px;
+  padding: 10px;  
 }
 
 
+
+.skillspoint {
+  color: hsl(221, 100%, 96%);
+}
+
+.sumary {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 20px;
+}
+
+.sumary h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sumary span {
+  font-weight: 800;
+  color: hsl(224, 30%, 27%);
+}
 
 
 .attribution {
